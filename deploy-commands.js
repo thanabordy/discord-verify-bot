@@ -1,7 +1,7 @@
 const { REST, Routes, SlashCommandBuilder } = require('discord.js');
-const TOKEN = 'MTM2NDQ5ODcyNDQ2MTQ3NzkzMA.GCDO7T.nvBeLHPzSFM6kem0sAN3zAVBbafSXuUsHEa1Jw';  // ใช้ Token ที่คุณให้
-const CLIENT_ID = '1364498724461477930';  // ใช้ Client ID ของคุณ
-const GUILD_ID = '480026073988595732';  // ใช้ Guild ID ของคุณ
+const TOKEN = '[YOU TOKEN on Discord dev]'; // ใช้ Token ที่คุณให้
+const CLIENT_ID = '[YOU CLIENT ID on Discord dev]'; // ใช้ Client ID ของคุณ
+const GUILD_ID = '[YOU Discord ID]'; // ใช้ Guild ID ของคุณ
 
 const commands = [
   new SlashCommandBuilder().setName('verify').setDescription('เริ่มการยืนยันตัวตน'),
