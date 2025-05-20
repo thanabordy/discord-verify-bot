@@ -24,9 +24,9 @@ const client = new Client({
   partials: [Partials.Channel],
 });
 
-const TOKEN = 'MTM2NDQ5ODcyNDQ2MTQ3NzkzMA.GCDO7T.nvBeLHPzSFM6kem0sAN3zAVBbafSXuUsHEa1Jw';
-const CLIENT_ID = '1364498724461477930';
-const GUILD_ID = '480026073988595732';
+const TOKEN = '[YOU TOKEN on Discord dev]';
+const CLIENT_ID = '[YOU CLIENT ID on Discord dev]';
+const GUILD_ID = '[YOU Discord ID]';
 
 client.once(Events.ClientReady, async () => {
   console.log(`✅ Bot พร้อมแล้ว!`);
